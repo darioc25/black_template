@@ -5,6 +5,11 @@
     --text-font: 'Jura', sans-serif;
 }
 
+body {
+    height: 9000px;
+    background-color: black;
+}
+
 /* Navbar Section */
 nav {
     position: relative;
@@ -102,11 +107,27 @@ nav {
     padding: 10px 0px;
 }
 
+/* Section 2 */
+.custom-section-2 {
+    background-color: black;
+    margin: 180px 60px 0px 60px;
+}
 
+.img-section-2 {
+    width: 90%;
+}
 
+.title-section-2 {
+    color: var(--main-color);
+    font-family: var(--text-font);
+    font-size: 30px;
+}
 
-
-
+.text-section-2 {
+    color: white;
+    font-family: var(--text-font);
+    font-size: 18px;
+}
 
 
 
@@ -302,5 +323,9 @@ nav {
         margin-left: 0px;
         text-align: center;
         font-size: 18px;
+    }
+
+    .img-section-2 {
+        width: 100%;
     }
 }
