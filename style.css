@@ -21,6 +21,7 @@ nav {
 }
 
 .custom-navbar {
+    padding-left: 16px;
     list-style: none;
     display: flex;
     margin: 0px;
@@ -80,7 +81,7 @@ nav {
 }
 
 .custom-col-arrow-section-1 {
-    margin-bottom: 120px;
+    margin-bottom: 160px;
 }
 
 .arrow-icon-section-1 {
@@ -110,7 +111,7 @@ nav {
 /* Section 2 */
 .custom-section-2 {
     background-color: black;
-    margin: 180px 60px 0px 60px;
+    margin: 140px 60px 0px 60px;
 }
 
 .img-section-2 {
@@ -129,12 +130,35 @@ nav {
     font-size: 18px;
 }
 
+/* Section 3 */
+.custom-section-3 {
+    margin: 140px 60px 0px 60px;
+}
 
+.card-section-3 {
+    margin: 30px 0px;
+    max-width: 400px;
+}
 
+.icon-card-section-3 {
+    color: var(--main-color);
+    margin-right: 10px;
+}
 
+.title-card-section-3 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: var(--text-font);
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--main-color);
+}
 
-
-
+.text-card-section-3 {
+    font-size: 18px;
+    font-family: var(--text-font);
+    color: white;
+}
 
 
 
