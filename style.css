@@ -160,11 +160,32 @@ nav {
     color: white;
 }
 
+/* Section 4 */
+.custom-section-4 {
+    margin: 140px 60px 0px 60px;
+    background-image: url(./media/missile-2027068_1280.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.card-section-4 {
+    max-width: 800px;
+    margin: 150px 0px;
+}
 
+.title-card-section-4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+    font-family: var(--text-font);
+}
 
-
-
+.text-card-section-4 {
+    font-size: 18px;
+    font-family: var(--text-font);
+    color: white;
+}
 
 
 
@@ -351,5 +372,15 @@ nav {
 
     .img-section-2 {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .custom-section-4 {
+        background-image: url(./media/mars-11012_1920.jpg);
+    }
+
+    .card-section-4 {
+        margin: 60px 0px;
     }
 }
