@@ -187,20 +187,71 @@ nav {
     color: white;
 }
 
+/* Section 5 */
+.custom-section-5 {
+    margin: 140px 60px 0px 60px;
+}
 
+.title-card-section-5 {
+    color: var(--main-color);
+    font-family: var(--text-font);
+}
 
+.text-card-section-5 {
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-family: var(--text-font);
+}
 
+.button-card-section-5 {
+    font-family: var(--text-font);
+    color: white;
+    text-decoration: none;
+}
 
+.border-button-section-5 {
+    position: relative;
+    border: 3px solid var(--main-color);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.border-button-section-5::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: black;
+    left: -3px;
+}
 
+.border-button-section-5::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: black;
+    right: -3px;
+}
 
+.top-corner {
+    position: absolute;
+    background-color: black;
+    width: 130px;
+    height: 3px;
+    top: -3px;
+}
 
-
-
-
-
-
-
+.bottom-corner {
+    position: absolute;
+    background-color: black;
+    width: 130px;
+    height: 3px;
+    bottom: -3px;
+}
 
 
 
